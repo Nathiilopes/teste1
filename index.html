@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(151, 148, 148);
+            max-width: 100%;
+            margin-top: 50px;
+            
+        }
+        
+        header{
+            background-color: rgb(248, 248, 247);
+
+            
+        }
+        
+        nav ul{
+            background-color: rgb(133, 130, 130);
+            display: flex;
+            justify-content: center;
+
+            flex-wrap: nowrap;
+            margin-top: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 8px;
+
+            box-shadow: 2px 2px 3px rgb(52, 150, 32) ;
+            
+        }
+
+        nav ul li{
+            list-style-type:none;
+            margin-right: 80px;
+        
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(100, 168, 32);
+            
+        }
+        main{
+            background-color: rgb(216, 213, 213);
+            border-radius: 20ppx;
+
+        }
+
+        .container{
+            width: 800px;
+            margin-left: 200px;
+
+        }
+
+        h1{
+            color: rgb(7, 7, 7);
+            text-align: center;
+        
+
+        }
+
+        h2, h3{
+            background-color: white;
+            font-style: italic;
+        }
+
+
+        p{
+            text-align: justify;
+            margin: 10px 10px 10px ;
+            text-indent: 30px;
+            
+        }
+
+        footer > p {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Área da Saúde</h1>
+        <nav>
+            <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+        <section id="Assuntos">
+            <article>
+            <h2>Enfermagem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores officiis, enim architecto perspiciatis laborum. Atque perferendis accusantium architecto inventore repellendus ut officia tenetur deleniti repellat. Alias corporis hic numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fuga, fugit dignissimos cum, ab quis dolore amet similique officia sequi, aut quasi delectus sed maiores iusto voluptatem placeat aliquam molestiae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis laudantium dolore eos dolorum molestias repellendus numquam reprehenderit soluta cumque eum nulla qui, doloribus ad sequi recusandae voluptates blanditiis incidunt culpa.</p>
+            </article>
+        </section>
+
+        <section id="enfermagem">
+            <article>
+                <h3>Enfermeiro</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nihil nobis perferendis sapiente animi! Alias, veniam nihil fugit cupiditate ipsa rerum qui sequi, impedit molestias nemo nobis libero accusamus odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                <h3>Tecnico de enfermagem</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt autem nam. Neque nemo est fugiat dolores impedit dolor quibusdam vero facilis harum! Voluptatibus quisquam doloribus vitae voluptates quo labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <h3>Auxiliar de enfermagem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit in laudantium aliquid ab quia, iusto non natus itaque et quod error soluta eveniet quisquam assumenda fugiat numquam molestiae. Eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </article>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Nathalia e CursoEmVideo</p>
+    </footer>
+</body>
+</html>
